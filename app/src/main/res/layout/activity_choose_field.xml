@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:TagsEditText="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ChooseField">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/newlogo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/btn_bg"
+
+            android:text="Select Preferred Choices"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/collegespin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:background="@drawable/et_bg"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/departmentspin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+
+         <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+             android:background="@drawable/et_bg"
+             android:layout_marginBottom="20dp"
+             android:padding="10dp"
+             android:layout_marginTop="@dimen/_10sdp" />
+
+        <mabbas007.tagsedittext.TagsEditText
+            android:id="@+id/interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:hint="Select Interests"
+            android:textColorHint="#010d01"
+            android:padding="10dp"
+            TagsEditText:allowSpaceInTag="true"
+            TagsEditText:tagsBackground="@drawable/square_default"
+            TagsEditText:tagsCloseImageRight="@drawable/tag_close"
+            android:textColor="#010d01"/>
+
+
+        <Button
+            android:id="@+id/submitchoice"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="26dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_bg"
+            android:text="Complete Registration"
+            android:layout_marginBottom="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

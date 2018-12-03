@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="field">
+        <item>Computer</item>
+        <item>Biology</item>
+        <item>IOT</item>
+        <item>Android</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Machine Learning</item>
+        <item>Physical Education</item>
+        <item>Artificial Intelligenge</item>
+        <item>Information Technology</item>
+        <item>Big Data</item>
+        <item>Website Development</item>
+    </array>
+
+
+
+</resources>

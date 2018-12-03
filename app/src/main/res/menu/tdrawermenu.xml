@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/news"
+        android:title="News Feed"
+        />
+
+    <item
+        android:id="@+id/near"
+        android:title="Nearby "
+        />
+
+    <item
+        android:id="@+id/connect"
+        android:title="Connections"
+        />
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/chat"
+        android:title="Requests"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</group>
+</menu>
